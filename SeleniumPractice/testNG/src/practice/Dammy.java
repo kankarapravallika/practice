@@ -22,6 +22,7 @@ public class Dammy {
 	public void test1()
 	{
 		System.out.println("test1");
+		System.out.println("testing git");
 	}
 	@BeforeTest
 	public void start()
