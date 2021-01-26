@@ -23,7 +23,7 @@ public class Dammy {
 	{
 		System.out.println("test1");
 		System.out.println("testing git");
-		System.out.println("added in test branch");
+		System.out.println("aed in test branch");
 	}
 	@BeforeTest
 	public void start()
