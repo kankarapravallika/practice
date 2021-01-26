@@ -1,0 +1,30 @@
+package practice;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class Dammy {
+	
+	@Test
+	public void test()
+	{
+		System.out.println("test");
+	}
+	
+	@Test
+	public void test1()
+	{
+		System.out.println("test1");
+	}
+	@BeforeTest
+	public void start()
+	{
+		System.out.println("Browser launch");
+	}
+	@AfterTest
+	public void close()
+	{
+		System.out.println("Browser close");
+	}
+}

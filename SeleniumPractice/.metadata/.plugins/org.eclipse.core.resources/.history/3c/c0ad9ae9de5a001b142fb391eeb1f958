@@ -1,0 +1,17 @@
+package sample;
+
+public class Practice {
+
+	
+	public int display()
+	{
+		int a =5;
+		return a;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Practice p = new Practice();
+		System.out.println(p.display());
+	}
+
+}

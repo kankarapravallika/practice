@@ -1,0 +1,24 @@
+package sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Test1 {
+	
+	public static void main(String args[]) throws Exception
+	{
+		System.setProperty("webdriver.chrome.driver","E:\\SeleniumPractice\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+//		driver.get("https://www.facebook.com/");
+//		driver.findElement(By.cssSelector("#email")).sendKeys("XYZ");
+//		driver.findElement(By.cssSelector("#pass")).sendKeys("abc");
+//		driver.findElement(By.name("login")).click();
+//		Thread.sleep(50);
+//		String text = driver.findElement(By.xpath("//div[@id='email_container']/div[2]/text()")).getText();
+//		text.compareToIgnoreCase("The password that you've entered is incorrect. Forgotten password?");
+		driver.get("https://www.google.com/");
+		driver.findElement(By.xpath("//div[@jsname='gLFyf']/input[contains(@data-ved,'AyzgGHaqsB')]")).sendKeys("Welcome");
+	}
+
+}

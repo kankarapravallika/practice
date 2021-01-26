@@ -1,0 +1,10 @@
+package sample;
+
+public abstract class Abs {
+
+	public abstract void method();
+	public void method1()
+	{
+		System.out.println("abstract class method");
+	}
+}

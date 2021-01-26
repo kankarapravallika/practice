@@ -1,0 +1,41 @@
+package sample;
+
+//import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
+
+	public class Test extends Abs{
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Just checking System.setProperty("webdriver.gecko.driver",
+		 * "E:\\SeleniumPractice\\chromedriver.exe"); WebDriver driver = new
+		 * ChromeDriver(); driver.get("https://www.google.co.in/"); int a = 2,b=3,c=0; c
+		 * = a + b; System.out.println(c); driver.close();
+		 */
+		/*
+		 * // int k =1; for (int i =4;i>=1;i--) { for(int j = 1;j<=i;j++) {
+		 * System.out.print(j+ " "); // k++; } System.out.println(); }
+		 */
+		Abs t = new Test();
+//		t.green();
+		t.method();
+	}
+	
+	/*
+	 * @Override public void green() { System.out.println("interface" + a);
+	 * 
+	 * }
+	 */
+	public void method()
+	{
+		System.out.println("same class");
+	}
+
+//	@Override
+//	public void method() {
+//		System.out.println("abstract method");
+//		
+//	}
+}
+

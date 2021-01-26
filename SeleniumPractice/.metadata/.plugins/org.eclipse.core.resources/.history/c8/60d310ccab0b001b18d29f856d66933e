@@ -1,0 +1,21 @@
+package sample;
+
+import javax.lang.model.element.Element;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.GeckoDriverInfo;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.gecko.driver","E:\\SeleniumPractice\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.google.co.in/");
+	}
+
+}
